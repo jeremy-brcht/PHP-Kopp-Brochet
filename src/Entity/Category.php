@@ -24,6 +24,9 @@ class Category
      */
     private $name;
 
+
+    //COUCOU
+
     /**
      * @ORM\ManyToMany(targetEntity=Post::class, inversedBy="categories")
      */
