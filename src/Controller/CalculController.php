@@ -43,7 +43,7 @@ class CalculController
     }
 
     /**
-     * @Route ("/solve/{nb1}carre")
+     * @Route ("/solve/{nb1}carree")
      */
     public function carre($nb1)
     {
