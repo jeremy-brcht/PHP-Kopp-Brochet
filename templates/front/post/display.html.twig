@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+
+{% block content %}
+    {{ dump (articles) }}
+{% endblock %}
+
+{% block footer %}
+<h1>hello world<h1>
+
+{% for a in articles %}
+    
+    <p>{{a.title}}</p>
+    {{a.content}}
+{% endfor %}
+{% endblock %}

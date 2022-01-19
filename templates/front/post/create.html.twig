@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+
+{% block content %}
+{{ form_start(myForm) }}
+{{ form(myForm) }}
+<input type="submit" name="save">
+{{ form_end(myForm) }}
+
+{% endblock content %}
